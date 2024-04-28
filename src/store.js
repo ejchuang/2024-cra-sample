@@ -9,6 +9,7 @@ function calculateTotalPrice(cartList) {
 
 export const cartInit =  {
     cartList: [],
+     total: 0
   };
 
 export const cartReducer = (state, action) => {
